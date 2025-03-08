@@ -8,11 +8,13 @@ import MyProfile from './pages/MyProfile'
 import MyAppointments from './pages/MyAppointments'
 import Appointment from './pages/Appointment'
 import Navbar from './components/Navbar'
+import Header from './components/Header'
 
 const App = () => {
   return (
     <div>
       <Navbar />
+      <Header />
       <h1 style={{ color: "blue" }}>Hello from App</h1>
     </div>
   );
