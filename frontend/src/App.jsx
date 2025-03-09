@@ -9,12 +9,20 @@ import MyAppointments from './pages/MyAppointments'
 import Appointment from './pages/Appointment'
 import Navbar from './components/Navbar'
 import Header from './components/Header'
+import SpecialityMenu from './components/SpecialityMenu'
+import TopBankers from './components/TopBankers'
+import Banner from './components/Banner'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
     <div>
       <Navbar />
       <Header />
+      <SpecialityMenu />
+      <TopBankers />
+      <Banner />
+      <Footer />
       <h1 style={{ color: "blue" }}>Hello from App</h1>
     </div>
   );
